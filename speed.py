@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# Editado por AdrianOficial 
 # -*- coding: utf-8 -*-
 # Copyright 2012 Matt Martz
 # All Rights Reserved.
@@ -2009,3 +2010,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+

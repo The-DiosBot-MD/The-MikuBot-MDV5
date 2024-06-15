@@ -130,3 +130,5 @@ Si es propietario/a de una cuenta que actúa como Bot, tiene el control de los d
 ### Usuarios Terceros
 Los usuarios terceros, en este contexto, se refieren a los Sub Bots, que están sujetos al control de los propietarios. Estos usuarios pueden recopilar datos a través de la función Sub Bot, y no podemos garantizar cómo se utilizarán dichos datos.
 </details>
+
+

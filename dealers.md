@@ -4,6 +4,6 @@
  
 | USUARIO          |   CÓDIGO                | CONTACTO    | ESTADO
 | ------------     | ------------            | ------------| ------------
-| [**Richetti123**](https://github.com/Richetti123)        | `KmZxVE5lIUVvrkqLd8EYJlC9G` | `IG: @richetti_123` | ✅
+| [**Richetti123**](https://github.com/Sakura-OFC)        | `KmZxVE5lIUVvrkqLdjdjKKB8nqH` | `IG: @Sakura-ofc` | ✅
 | ⚪        | ⚪               |  ⚪ | ⚪
 

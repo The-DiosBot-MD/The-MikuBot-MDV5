@@ -31,7 +31,7 @@ function connect(conn, PORT) {
   });
 
   app.get('*', async (req, res) => {
-    res.json("GATABOT-MD en ejecución");
+    res.json("The-MikuBot-MDV5 en ejecución");
   });
 
   server.listen(PORT, async () => {
@@ -106,3 +106,4 @@ unwatchFile(file);
 console.log(chalk.redBright("Update 'server.js'"));
 import(`${file}?update=${Date.now()}`);
 })
+
