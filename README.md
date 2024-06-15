@@ -110,7 +110,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="http://wa.me/595982216131" target="blank"><img src="https://img.shields.io/badge/COLAB.3-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="http://wa.me/595994825505" target="blank"><img src="https://img.shields.io/badge/COLAB.4-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-## `▢ COLABORADORES DEL BOT` 
+## `▢ AGRADECIMIENTOS RESPECTIVOS` 
+# Agrademos por el código usado para el bot ;)
 <a href="https://github.com/GataNina-Li"><img src="https://github.com/GataNina-Li.png" width="100" height="100" alt="GataNina-Li"/></a>
 
 ## `▢ EDITOR & PROPIETARIO DEL BOT` 
