@@ -151,55 +151,55 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 ${margen}
 
-> 🌟 *INFORMACIÓN GENERAL* 🌟 
+> ⚠️ *𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐜𝐢𝐨𝐧 𝐆𝐞𝐧𝐞𝐫𝐚𝐥* ⚠️
 
-*❰❰ ${lenguajeGB['smsTotalUsers']()} ❱❱* 
+> *☾︎ ${lenguajeGB['smsTotalUsers']()} ☽* 
 ➺ \`\`\`${Object.keys(global.db.data.users).length}\`\`\`
 
-*❰❰ Registrados ❱❱* 
+> *☾︎ Registrados ☽* 
 ➺ \`\`\`${rtotalreg}/${totalreg}\`\`\`    
 
-*❰❰ ${lenguajeGB['smsUptime']()} ❱❱* 
+> *☾︎ ${lenguajeGB['smsUptime']()} ☽* 
 ➺ \`\`\`${uptime}\`\`\`
 
-*❰❰ ${lenguajeGB['smsVersion']()} ❱❱* 
+> *☾︎ ${lenguajeGB['smsVersion']()} ☽*
 ➺ \`\`\`${vs}\`\`\`
 
-*❰❰ ${lenguajeGB['smsMode']()} ❱❱* 
+> *☾︎ ${lenguajeGB['smsMode']()} ☽* 
 ➺ \`${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}\`
 
-*❰❰ ${lenguajeGB['smsBanChats']()} ❱❱* 
+> *☾︎ ${lenguajeGB['smsBanChats']()} ☽* 
 ➺ \`\`\`${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}\`\`\`
 
-*❰❰ ${lenguajeGB['smsBanUsers']()} ❱❱* 
+> *☾︎ ${lenguajeGB['smsBanUsers']()} ☽*
 ➺ \`\`\`${Object.entries(global.db.data.users).filter(user => user[1].banned).length}\`\`\`
 
 ${margen}
 
-> ✨ *INFORMACIÓN DEL USUARIO* ✨
+> 🥀 *𝐈𝐧𝐟𝐨 𝐝𝐞𝐥 𝐮𝐬𝐮𝐚𝐫𝐢𝐨* 🥀
 
-*❰❰ Tipo de registro ❱❱*
+> *❰❰ Tipo de registro ❱❱*
 ➺ ${user.registered === true ? `_${user.registroC === true ? '🗂️ Registro Completo' : '📑 Registro Rápido'}_` : '❌ _Sin registro_'}
 
-*❰❰ Mi estado ❱❱*
+> *❰❰ Mi estado ❱❱*
 ➺ ${typeof user.miestado !== 'string' ? '❌ *Establecer usando:* _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
 
-*❰❰ Registrado ❱❱*
+> *❰❰ Registrado ❱❱*
 ➺ ${user.registered === true ? '✅ Verificado' : '❌ *Establecer registro usando:* _' + usedPrefix + 'verificar_'}
 
-*❰❰ ${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} ❱❱* 
+> *❰❰ ${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} ❱❱* 
 ➺ ${user.premiumTime > 0 ? '✅ Eres usuario Premium' : '❌ *Establecer Premium:* _' + usedPrefix + 'pase premium_'}
 
-*❰❰ ${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} ❱❱* 
+> *❰❰ ${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} ❱❱* 
 ➺ ${role}
 
-*❰❰ ${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} ❱❱*
+> *❰❰ ${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} ❱❱*
 ➺ ${emoji} \`${user.exp - min}/${xp}\`
 
-*❰❰ ${lenguajeGB['smsPareja']()} ❱❱*
+> *❰❰ ${lenguajeGB['smsPareja']()} ❱❱*
 ➺ ${pareja ? `${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}
 
-*❰❰ Pasatiempo(s) ❱❱* 
+> *❰❰ Pasatiempo(s) ❱❱* 
 ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
 
 ${margen}
@@ -500,7 +500,7 @@ ${margen}
 ✓ _${usedPrefix}myns_
 ✓ _${usedPrefix}unreg *numero de serie*_
 ✓ _${usedPrefix}minardiamantes | minargemas_
-✓ _${usedPrefix}minargatacoins | minarcoins_
+✓ _${usedPrefix}minarcoins | minarcoins_
 ✓ _${usedPrefix}minarexperiencia | minarexp_
 ✓ _${usedPrefix}minar *:* minar2 *:* minar3_
 ✓ _${usedPrefix}rob | robar 
@@ -528,7 +528,7 @@ ${margen}
 
 ✓ _${usedPrefix}fytendencia | fyranking_
 
-> 🏆 *TOP en GATABOT* 🏆
+> 🏆 *TOP en el BOT* 🏆
 
 ✓ _${usedPrefix}top | lb | leaderboard_
 
@@ -571,7 +571,7 @@ ${margen}
 ✓ _${usedPrefix}unete *enlace*_
 ✓ _${usedPrefix}dardiamantes *cantidad*_
 ✓ _${usedPrefix}darxp *cantidad*_
-✓ _${usedPrefix}dargatacoins *cantidad*_
+✓ _${usedPrefix}darcoins *cantidad*_
 ✓ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
 ✓ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
 ✓ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
@@ -585,7 +585,7 @@ ${margen}
 ✓ _${usedPrefix}comunicargrupos *texto*_
 ✓ _${usedPrefix}borrartmp | cleartmp_
 ✓ _${usedPrefix}delexp *@tag*_
-✓ _${usedPrefix}delgatacoins *@tag*_
+✓ _${usedPrefix}delcoins *@tag*_
 ✓ _${usedPrefix}deldiamantes *@tag*_
 ✓ _${usedPrefix}reiniciar | restart_
 ✓ _${usedPrefix}ctualizar | update_
@@ -594,9 +594,9 @@ ${margen}
 ✓ _${usedPrefix}listapremium | listprem_
 ✓ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ✓ _${usedPrefix}añadirxp *@tag cantidad*_
-✓ _${usedPrefix}añadirgatacoins *@tag cantidad*_
+✓ _${usedPrefix}añadircoins *@tag cantidad*_
 `.trim()
-await conn.sendFile(m.chat, gataImg, 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu }}})
+await conn.sendFile(m.chat, gataImg, 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝗦𝘂𝗽𝗲𝗿 𝗕𝗼𝘁 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu }}})
 //conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
 } catch (e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)

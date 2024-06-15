@@ -13,7 +13,7 @@ return `┏━━━━━━━━━━━━━━━━┓\n┣📚 𝘾𝙊
 m.reply(`${lenguajeGB['smsAvisoIIG']()}⚡𝘿𝘼𝙎𝙃𝘽𝙊𝘼𝙍𝘿 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎 𝙈𝘼𝙎 𝙐𝙎𝘼𝘿𝙊𝙎 :\n\n${txt}`)}
 handler.help = ['dashboard']
 handler.tags = ['info']
-handler.command = /^dashboard$/i
+handler.command = /^dashboard|usoc$/i
 
 export default handler
 
