@@ -125,6 +125,11 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 # Agrademos por el código usado para el bot ;)
 <a href="https://github.com/GataNina-Li"><img src="https://github.com/GataNina-Li.png" width="100" height="100" alt="GataNina-Li"/></a>
 
+### `□ DESARROLLADORES`
+<a href="https://github.com/The-DiosBot-MD/The-MikuBot-MDV5/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=The-DiosBot-MD/The-MikuBot-MDV5" /> 
+</a>
+
 ## `▢ EDITOR & PROPIETARIO DEL BOT` 
 <a href="https://github.com/The-DiosBot-MD"><img src="https://github.com/The-DiosBot-MD.png" width="250" height="250" alt="The-DiosBot-MD"/></a>
   
