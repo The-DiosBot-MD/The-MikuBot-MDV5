@@ -10,7 +10,7 @@ import { es as esDefault, en as enDefault } from "./lib/multi-language/_default.
 import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 //Aqui se agrega los numeros que seran owners
 global.owner = [
-["595976126756", '𝙊𝙬𝙣𝙚𝙧 👑', true], //𝙏𝙝𝙚-𝙈𝙞𝙠𝙪𝘽𝙤𝙩-𝙈𝘿𝙑5 👑
+["51995180263", '𝙊𝙬𝙣𝙚𝙧 👑', true], //𝙏𝙝𝙚-𝙈𝙞𝙠𝙪𝘽𝙤𝙩-𝙈𝘿𝙑5 👑
 ["595986224522"],
 ["595987138033"],
 ["595982216131"],
