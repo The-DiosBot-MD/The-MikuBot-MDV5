@@ -94,6 +94,7 @@ console.log(chalk.yellow(`╭${lineM}
 ┊${chalk.blueBright('┊')}${chalk.yellow(`💜 Colaboradores:`)}
 ┊${chalk.blueBright('┊')}${chalk.yellow(`• GataNina-Li (GataDios)`)}
 ┊${chalk.blueBright('┊')}${chalk.yellow(`• Sakura-OFC (S-OFC)`)}
+┊${chalk.blueBright('┊')}${chalk.yellow(`• Alex-MD (Alex-MD)`)}
 ┊${chalk.blueBright('┊')}${chalk.yellow(`• Alex-OFC (Alex-OFC)`)}
 ┊${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
 ┊${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
