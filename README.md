@@ -126,7 +126,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="https://github.com/GataNina-Li"><img src="https://github.com/GataNina-Li.png" width="100" height="100" alt="GataNina-Li"/></a>
 
 ### `□ DESARROLLADORES`
-<a href="https://github.com/The-DiosBot-MD/The-MikuBot-MDV5/graphs/contributors">
+<a href="https://github.com/The-DiosBot-MD/The-MikuBot-MDV5/graphs/colaborators">
 <img src="https://contrib.rocks/image?repo=The-DiosBot-MD/The-MikuBot-MDV5" /> 
 </a>
 
