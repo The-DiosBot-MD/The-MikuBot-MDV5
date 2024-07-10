@@ -38,6 +38,9 @@ global.lenguajeGB = es
 global.mid = esDefault
 global.version_language = '1.0 (MID-GB)'
 
+//Dashs
+global.ser = 'https://www.flarex.cloud'
+
 // [ES] > Si "default_language" esta vacío, su idioma predeterminado será Español o se usará el idioma que cada usuario haya seleccionado al momento de registrarse. 
 // ❰❰ API KEYS ❱❱
 global.Key360 = ["Gata_Dios"] // key Ephoto360
