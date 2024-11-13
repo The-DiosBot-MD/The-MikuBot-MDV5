@@ -37,7 +37,7 @@
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FThe-DiosBot-MD%2FThe-MikuBot-MDV5) 
 
 ### `▢ ACTIVAR EN HOSTINGPY`
-- Dash: [Dahs HostingPY](https://dash.hostingpy.shop)
+- Dash: [Dahs HostingPY](https://dahs.hostingpy.shop)
 - Panel: [Panel HostingPY](https://panel.hostingpy.shop)
 
 ### `▢ ACTIVAR EN TERMUX` 
